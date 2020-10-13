@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "angular": "^1.8.1",
+    "angular-ui-router": "^1.0.28",
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.1.0"
+  }
+}
