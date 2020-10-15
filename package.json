@@ -1,10 +1,18 @@
 {
+  "name": "goitrix",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "NODE_ENV=development webpack",
+    "build:prod": "NODE_ENV=production webpack"
+  },
   "dependencies": {
     "angular": "^1.8.1",
     "angular-ui-router": "^1.0.28",
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "oclazyload": "^1.1.0"
   },
   "devDependencies": {
+    "@uirouter/angularjs": "^1.0.28",
     "webpack": "^5.1.0"
   }
 }
